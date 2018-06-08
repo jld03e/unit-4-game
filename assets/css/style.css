@@ -1,22 +1,27 @@
-.time-image {
+.timeGem {
     width: 100px;
     height: 100px;
 }
-.space-image {
+.spaceGem {
     width: 100px;
     height: 100px;
 }
-.mind-image {
+.mindGem {
+    width: 100px;
+    height: 100px;
+}
+.soulGem {
     width: 100px;
     height: 100px;
 }
 
 h1 {
-margin-right: 100px;
+margin-right: 300px;
 background-color: aqua;
 color: blue;
 border-style: solid;
 border-width: 10px;
+text-align: center;
 }
 
 p {
@@ -24,5 +29,5 @@ background-color: blueviolet;
 color: gold;
 border-style: solid;
 border-width: 5px;
-margin-right: 100px;
+margin-right: 300px;
 }

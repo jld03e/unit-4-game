@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <script src="assets/javascript/game.js"></script>
   <title>stones</title>
 <meta name="viewport" content='width=device-width, initial-scale=1'>
@@ -11,7 +15,6 @@
 <body>
 <div>
     <h1>Infinity Stones Game!!</h1>
-    </h1>
     <br>
     <p>
     You will be given a random number at the start of your death wish with Thanos.
@@ -30,14 +33,17 @@
     Each time the battle starts anew, their will be a new value for each gem.
     </p>
 </div>
+
+    <h1>THANOS NUMBER: <span id="thanosNumber"></span></h1>
+    <h1>human number: <span id="humanNumber"></span></h1>
+    <h2>Wins: <span id="wins"></span></h2>
+    <h2>Deaths: <span id="deaths"></span></h2>
+    
 <div id="stones">
-    <img class="time-image" src="assets/images/timegem.jpg" alt="Time Gem Infinity Gauntlet">
-    <img class="space-image" src="assets/images/spacegem.jpg" alt="Space Gem Infinity Gauntlet">
-    <img class="mind-image" src="assets/images/mindgem.jpg" alt="Mind Gem Infinity Gauntlet">
+    <img class="timeGem" src="assets/images/timegem.jpg" alt="Time Gem Infinity Gauntlet">
+    <img class="spaceGem" src="assets/images/spacegem.jpg" alt="Space Gem Infinity Gauntlet">
+    <img class="mindGem" src="assets/images/mindgem.jpg" alt="Mind Gem Infinity Gauntlet">
+    <img class="soulGem" src="assets/images/soulGem.jpg" alt="Soul Gem Infinity Gauntlet">
 </div>
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
 </html>
